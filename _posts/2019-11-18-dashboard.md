@@ -4,6 +4,7 @@ date: 2019-11-18
 tags: [data science, dashboard, data visualisation]
 header:
   image: "/images/dashboard/Dashboard.png"
+  teaser: "/images/dashboard/Dashboard.png"
 excerpt: "Data Science, Dashboard, Data Visualisation"
 mathjax: "true"
 ---
