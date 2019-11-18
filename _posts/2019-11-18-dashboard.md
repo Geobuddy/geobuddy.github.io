@@ -51,7 +51,7 @@ head(df)
 Here some inline code `x+y`.
 
 Here's an image:
-<img src="{{ site.url }}{{ site.baseurl }}/images/dashboard/Dashboard.jpg" alt="dashboard user view">
+<img src="{{ site.url }}{{ site.baseurl }}/images/dashboard/Dashboard.png" alt="dashboard user view">
 
 Here's some math:
 
