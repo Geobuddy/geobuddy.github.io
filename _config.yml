@@ -108,7 +108,7 @@ analytics:
 # Site Author
 author:
   name             : "Adilson Pacheco"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/images/Me.png"
   bio              : "MSc Geographic Information System Graduate from UCL."
   location         : "London, UK"
   email            :
@@ -130,7 +130,7 @@ author:
       url: "https://github.com/geobuddy"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://linkedin.com/dodatascience"
+      url: "https://linkedin.com/in/dodatascience"
 
 # Site Footer
 footer:
