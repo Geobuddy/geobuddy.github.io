@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Dashboard Project: Crime Data"
 date: 2019-11-18
 tags: [data science, dashboard, data visualisation]
