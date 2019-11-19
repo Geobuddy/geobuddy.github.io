@@ -1,9 +1,8 @@
 ## Personal Portfolio
----
-My personal portfolio recording my passion for technology. 
+My personal portfolio recording my passion for technology.
 
-### theme
-The theme is forked form [Minimal Mistakes Jekyll theme](https://mmistakes.github.io/minimal-mistakes/)
+### Theme
+The theme is forked form [Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes)
 
 
 ### License
