@@ -1,9 +1,9 @@
 ---
+layout: post
 title: "Dashboard Project: Crime Data"
 date: 2019-11-18
 tags: [data science, dashboard, data visualisation]
 header:
-  teaser: "/images/dashboard/Dashboard.png"
   image: "/images/dashboard/Dashboard.png"
 excerpt: "Data Science, Dashboard, Data Visualisation"
 mathjax: "true"
