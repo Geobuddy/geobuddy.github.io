@@ -4,21 +4,10 @@ permalink: /resume/
 header:
   image: "/images/Background.jpg"
 ---
-<!DOCTYPE html>
-<html>
-<head>
-<title>Adilson Pacheco - Curriculum Vitae</title>
-
-<meta name="viewport" content="width=device-width"/>
-<meta name="description" content="The Curriculum Vitae of Joe Bloggs."/>
-<meta charset="UTF-8">
 
 <link type="text/css" rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 <link href="{{ '/assets/css/fonts.css' | relative_url }}" rel='stylesheet' type='text/css'>
 
-<!--[if lt IE 9]>
-<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-<![endif]-->
 </head>
 <body id="top">
 <div id="cv" class="instaFade">
@@ -232,5 +221,3 @@ var pageTracker = _gat._getTracker("UA-3753241-1");
 pageTracker._initData();
 pageTracker._trackPageview();
 </script>
-</body>
-</html>
