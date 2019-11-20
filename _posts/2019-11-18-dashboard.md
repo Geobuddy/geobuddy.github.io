@@ -3,7 +3,7 @@ title: "Dashboard Project: Crime Data"
 date: 2019-11-18
 tags: [data science, dashboard, data visualisation]
 header:
-  image: "/images/dashboard/Dashboard.png"
+  overlay_image: "/images/Background.jpg"
 excerpt: "Data Science, Dashboard, Data Visualisation"
 mathjax: "true"
 ---
