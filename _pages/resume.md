@@ -1,7 +1,236 @@
 ---
 title: "Resume"
-layout: resume
 permalink: /resume/
 header:
   image: "/images/Background.jpg"
 ---
+<!DOCTYPE html>
+<html>
+<head>
+<title>Adilson Pacheco - Curriculum Vitae</title>
+
+<meta name="viewport" content="width=device-width"/>
+<meta name="description" content="The Curriculum Vitae of Joe Bloggs."/>
+<meta charset="UTF-8">
+
+<link type="text/css" rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+<link href="{{ '/assets/css/fonts.css' | relative_url }}" rel='stylesheet' type='text/css'>
+
+<!--[if lt IE 9]>
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+</head>
+<body id="top">
+<div id="cv" class="instaFade">
+	<div class="mainDetails">
+		<div id="headshot" class="quickFade">
+			<img src="{{ '/images/Me.png' | relative_url }}" alt="Adilson Pacheco" />
+		</div>
+
+		<div id="name">
+			<h1 class="quickFade delayTwo">Adilson Pacheco</h1>
+			<h3 class="quickFade delayThree">MSc Geographic Information System Graduate</h3>
+		</div>
+
+		<div id="contactDetails" class="quickFade delayFour">
+			<ul>
+				<li>email: <a href="mailto:adilson.pacheco93@gmail.com" target="_blank">adilson.pacheco93@gmail.com</a></li>
+				<li>website: <a href="https://www.geobuddy.github.io">www.geobuddy.github.io</a></li>
+				<!-- <li>linkedin: <a href="https://www.linkedin.com/in/dodatascience">www.linkedin.com/in/dodatascience</a></li> -->
+				<li>mobile: +44 (0) 7476815124</li>
+			</ul>
+		</div>
+		<div class="clear"></div>
+	</div>
+
+	<div id="mainArea" class="quickFade delayFive">
+		<section>
+			<article>
+				<div class="sectionTitle">
+					<h1>Personal Profile</h1>
+				</div>
+
+				<div class="sectionContent">
+					<p>Graduate master student experienced in data sourcing, processing and management aimed at big data analytics and visualisation. Ability to use one or more scripting language such as Python and R to perform analytical tasks. Knowledge of manipulating and transforming data from a variety of sources using data extraction and querying tools such as SQL.  Great multicultural awareness having lived in four different countries. Fluent communicator in multiple languages such as English, French and Portuguese. Always open to receiving feedback, willingness to learn new skills and strong work ethic. Ability to set targets and work to deadlines and prioritise.</p>
+				</div>
+			</article>
+			<div class="clear"></div>
+		</section>
+
+
+		<section>
+			<div class="sectionTitle">
+				<h1>Work Experience</h1>
+			</div>
+
+			<div class="sectionContent">
+				<article>
+					<h2>Change1’s Life, Volunteer Officer, UK</h2>
+					<p class="subDetails">November 2017 - Present</p>
+					<p>Contributed to two successful campaigns gathering donations to fill two containers for poor communities in sub-Saharan Africa.</p>
+				</article>
+
+				<article>
+					<h2>UCL - SpaceTimeLab, Software Developer Project Intern, UK</h2>
+					<p class="subDetails">May 2019 - September 2019</p>
+					<p>Produce clean and efficient code based on specifications and requirements using Python, JavaScript, HTML and SQL. Test, deploy and maintain applications to ensure strong functionality and optimisation. Create technical and non-technical documentation for reference and reporting. Produce web applications with reliable and up to date data using API endpoints.</p>
+				</article>
+
+				<article>
+					<h2>Euro Garages, Retail Advisor, UK</h2>
+					<p class="subDetails">August 2017 - February 2018</p>
+					<p>Assist customer with purchase, handle customer complaints and suggest necessary solutions and changes to address issues. </p>
+				</article>
+			</div>
+			<div class="clear"></div>
+		</section>
+
+
+		<section>
+			<div class="sectionTitle">
+				<h1>Technical Skills</h1>
+			</div>
+
+			<div class="sectionContent">
+				<ul class="keySkills">
+					<li>Python</li>
+					<li>R</li>
+					<li>JavaScript</li>
+					<li>SQL</li>
+					<li>ArcGIS</li>
+					<li>Qgis</li>
+					<li>Microsoft Office (Word, Excel and Power Point)</li>
+				</ul>
+			</div>
+			<div class="clear"></div>
+		</section>
+
+
+		<section>
+			<div class="sectionTitle">
+				<h1>Interpersonal Skills</h1>
+			</div>
+
+			<div class="sectionContent">
+				<article>
+					<h2>Communication</h2>
+					<p>Proficient speaker delivered academic presentations to audiences ranging from small groups to numbers of up 100 people. Able to convey information effectively and concisely. Skill gained through past customer service roles where I often resolved customer queries at Euro Garages.</p>
+				</article>
+
+				<article>
+					<h2>Teamwork</h2>
+					<p>Excellent team player, able to work as a team towards a common cause or target. Proven in my academic projects and work with charities where as a team we plan fundraising activities and house-to-house collections.</p>
+				</article>
+
+				<article>
+					<h2>Result-driven</h2>
+					<p>Excellent track record of target achievement through my academic studies and professional work. As a part-time software developer, I am accustomed to working and meeting specific deadlines involved in the software development lifecycle from production to deployment stage.</p>
+				</article>
+
+				<article>
+					<h2>Self-motivation</h2>
+					<p>Possess a great ability to work independently and learn new skills. This year, I have completed 10 accredited online self-study courses and expect to further complete 5 new courses by the end of the year. These courses are aimed at further improving my skills in data analytics, data visualisation and programming.</p>
+				</article>
+			</div>
+			<div class="clear"></div>
+		</section>
+
+
+		<section>
+			<div class="sectionTitle">
+				<h1>Education</h1>
+			</div>
+
+			<div class="sectionContent">
+				<article>
+					<h2>University College London, London, UK</h2>
+					<p class="subDetails">September 2018 - September 2019</p>
+					<p class="subDetails">MSc Geospatial Sciences</p>
+					<p>Award Average: Merit (GPA: 3.7)</p>
+				</article>
+
+				<article>
+					<h2>Royal Holloway University, Egham, UK</h2>
+					<p class="subDetails">September 2015 - July 2018</p>
+					<p class="subDetails">BSc (Hons) Geology</p>
+					<p>Award Average: Upper 2.1 (GPA: 3.8)</p>
+				</article>
+			</div>
+			<div class="clear"></div>
+		</section>
+
+
+		<section>
+			<div class="sectionTitle">
+				<h1>Training & Certification</h1>
+			</div>
+
+			<div class="sectionContent">
+				<article>
+					<h2>SAP</h2>
+					<p class="subDetails">October 2019 - November 2019</p>
+					<p>Introduction to Statistics for Data Science</p>
+				</article>
+
+				<article>
+					<h2>IBM</h2>
+					<p class="subDetails">September 2019</p>
+					<p>Applied Data Science with Python - Level 2</p>
+				</article>
+
+				<article>
+					<h2>IBM</h2>
+					<p class="subDetails">May 2019</p>
+					<p>Open Source tools for Data Science</p>
+				</article>
+
+				<article>
+					<h2>ESRI</h2>
+					<p class="subDetails">September 2018</p>
+					<p>Do-It-Yourself Geo Apps</p>
+				</article>
+			</div>
+			<div class="clear"></div>
+		</section>
+
+
+		<section>
+			<div class="sectionTitle">
+				<h1>Languages</h1>
+			</div>
+
+			<div class="sectionContent">
+				<article>
+					<p>Portuguese (Native), French (Bilingual), English (Fluent) and Spanish (Beginner).</p>
+				</article>
+			</div>
+			<div class="clear"></div>
+		</section>
+
+		<section>
+			<div class="sectionTitle">
+				<h1>Professional Membership</h1>
+			</div>
+
+			<div class="sectionContent">
+				<article>
+					<p>Royal Institution of Charted Surveyors (RICS) and
+					Association of Geographic Information (AGI).</p>
+				</article>
+			</div>
+			<div class="clear"></div>
+		</section>
+
+	</div>
+</div>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-3753241-1");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script>
+</body>
+</html>
