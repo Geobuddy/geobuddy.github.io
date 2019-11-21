@@ -6,4 +6,4 @@ header:
 ---
 
 
-<embed src= "{{ '/_includes/resume.html' | relative_url }}">
+<embed src= "{{ 'resume.html' | relative_url }}">
