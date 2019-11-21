@@ -1,4 +1,3 @@
-{% include nav_list %}
 
 <html>
 <head>
@@ -16,9 +15,12 @@
 </head>
 <body id="top">
 <div id="cv" class="instaFade">
+
+	{% include masthead.html %}
+	
 	<div style="width: 100%; overflow: hidden;" align="center">
-    <div style="margin-right: 320px"> <a href="https://geobuddy.github.io/" class="btn btn--primary btn-lg" itemprop="email">Back</a> </div>
-    <div style="margin-left: 320px;"> <a href="images/resume.pdf" download="adilson_pacheco_resume/cv" class="btn btn--primary btn-lg" itemprop="email">Download Resume</a> </div>
+    <div style="width: 320px"> <a href="https://geobuddy.github.io/" class="btn btn--primary" itemprop="email">Back</a> </div>
+    <div style="margin-left: 320px;"> <a href="images/resume.pdf" download="adilson_pacheco_resume/cv" class="btn btn--primary" itemprop="email">Download Resume</a> </div>
   </div>
 	<div class="mainDetails">
 		<div id="headshot" class="quickFade">
