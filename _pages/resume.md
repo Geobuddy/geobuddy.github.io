@@ -6,6 +6,4 @@ header:
 ---
 
 
-<div>
-  {% include resume.html %}
-</div>
+<embed src"{% include resume.html %}">
