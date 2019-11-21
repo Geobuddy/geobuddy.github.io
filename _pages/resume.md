@@ -5,4 +5,4 @@ header:
   image: "/images/Background.jpg"
 ---
 
-{% include  resume.html %}
+<section class="page__content" itemprop="text"> {% include resume.html %}</section>
