@@ -369,10 +369,10 @@ section:last-child {
   line-height: 55px;
   @include transition(all .2s ease);
 
-  &:hover {
+  &.not-looking { width: 400px; }
+}
+
+.contact-button:hover {
     background-color: #333;
     color: #fff;
   }
-
-  &.not-looking { width: 400px; }
-}
