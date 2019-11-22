@@ -360,7 +360,8 @@ section:last-child {
   background-color: #efefef;
   text-decoration: none;
   text-align: center;
-  display: flex;
+	display: inline-block;
+  vertical-align: middle;
   margin: 1.5rem auto;
   width: 95%;
   font-size: 1.2em;
