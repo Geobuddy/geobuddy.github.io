@@ -364,7 +364,7 @@ section:last-child {
   vertical-align: middle;
   margin: 1.5rem auto;
   width: 95%;
-  font-size: 1.2em;
+  font-size: 1.2rem;
   @include sans_light;
   color: #333;
   line-height: 55px;
