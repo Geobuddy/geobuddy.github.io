@@ -368,6 +368,8 @@ section:last-child {
   color: #333;
   line-height: 55px;
   @include transition(all .2s ease);
+
+  &.not-looking { width: 400px; }
 }
 
 .contact-button:hover {
