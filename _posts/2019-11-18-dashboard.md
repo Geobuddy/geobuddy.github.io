@@ -8,7 +8,7 @@ excerpt: "Data Science, Dashboard, Data Visualisation"
 mathjax: "true"
 toc: true
 toc_label: "My Table of Contents"
-toc_icon: "cog"
+toc_icon: "file-alt"
 ---
 
 
