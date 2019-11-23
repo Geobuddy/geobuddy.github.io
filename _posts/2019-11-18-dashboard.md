@@ -10,8 +10,6 @@ toc: true
 toc_label: "My Table of Contents"
 toc_icon: "file-alt"
 ---
-
-
 ## How to create a dashboard?
 This article will suggest a step-by-step process to create an interactive dashboard in JavaScript using the [jQuery](https://api.jquery.com/) library.
 {: style="text-align: justify"}
@@ -24,7 +22,6 @@ This project uses the following data-set:
 2. **[Chicago Community Area Boundary](https://raw.githubusercontent.com/RandomFractals/ChicagoCrimes/master/data/chicago-community-areas.geojson)**: GeoJSON containing Chicago community area boundary map for the year of 2015.
 
 3. **[Chicago Community Area Population](https://www.chicago.gov/content/dam/city/depts/zlup/Zoning_Main_Page/Publications/Census_2010_Community_Area_Profiles/Census_2010_and_2000_CA_Populations.pdf)**: Population size per community area based on the 2010 census.
-
 
 ## Architecture
 This dashboard uses [three-tier architecture](https://en.wikipedia.org/wiki/Multitier_architecture), a client, server and database architecture.
@@ -77,5 +74,3 @@ Here's an image:
 Here's some math:
 
 $$z=x+y$$
-
-{: style="text-align: justify"}
