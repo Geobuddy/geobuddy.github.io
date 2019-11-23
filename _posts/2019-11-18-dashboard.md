@@ -1,20 +1,36 @@
 ---
 title: "Dashboard Project: Crime Data"
 date: 2019-11-18
-tags: [data science, dashboard, data visualisation]
+tags: data science, dashboard, data visualisation
 header:
   overlay_image: "/images/Background.jpg"
 excerpt: "Data Science, Dashboard, Data Visualisation"
 mathjax: "true"
 ---
 
-# H1 Heading
+## How to create a dashboard?
+This article will suggest a step-by-step process to create an interactive dashboard in JavaScript using the [jQuery](https://api.jquery.com/) library.
 
-## H2 Heading
+## Data
+This project uses the following data-set:
+1. **[Chicago Crime](https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-present/ijzp-q8t2/data)**: API endpoint containing nearly 7 million crime
+records between 2001 onwards. Each incident recorded at block
+level containing 22 attributes (e.g. crime type, date and
+coordinates).
 
-### H3 Heading
+2. **[Chicago Community Area Boundary](https://raw.githubusercontent.com/RandomFractals/ChicagoCrimes/master/data/chicago-community-areas.geojson)**: GeoJSON containing
+Chicago community area boundary map for the year of 2015.
 
-Here's some basic text.
+3. **[Chicago Community Area Population](https://www.chicago.gov/content/dam/city/depts/zlup/Zoning_Main_Page/Publications/Census_2010_Community_Area_Profiles/Census_2010_and_2000_CA_Populations.pdf)**: Population size per
+community area based on the 2010 census.
+
+## Architecture
+
+
+## GUI (Results)
+
+
+## Summary (Final Recommendation)
 
 And here's some *italics*
 
