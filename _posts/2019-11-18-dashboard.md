@@ -34,11 +34,8 @@ This dashboard uses [three-tier architecture](https://en.wikipedia.org/wiki/Mult
 
 ## Summary (Final Recommendation)
 
-And here's some *italics*
 
-Here's some **bold** text.
-
-What about a [link](https://youtube.com)
+**Source code**: available on [github](https://github.com/Geobuddy/Crime-Dashboard).
 
 Here's a bulleted list:
 * First issue_term
