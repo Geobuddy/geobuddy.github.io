@@ -1,7 +1,7 @@
 ---
-title: "Dashboard Project: Crime Data"
+title: "Chicago Crime Dashboard"
 date: 2019-11-18
-tags: [data science, dashboard, data visualisation]
+tags: [dashboard, data visualisation, data analysis]
 header:
   overlay_image: "/images/Background.jpg"
 excerpt: "Data Science, Dashboard, Data Visualisation"
@@ -11,8 +11,27 @@ toc_label: "My Table of Contents"
 toc_icon: "file-alt"
 ---
 ## How to create a dashboard?
-This article will suggest a step-by-step process to create an interactive dashboard in JavaScript using the [jQuery](https://api.jquery.com/) library.
+This article will illustrate a step-by-step process to create an interactive web dashboard. A web dashboard consists of three parts, web client, web server and database. The function of each of these components will be discussed in more detail in the [architecture section](##architecture). This dashboard was developed using HTML5, JavaScript and CSS. The main frameworks and libraries used are: 
 {: style="text-align: justify"}
+
+<figure>
+    <img src="{{ site.url }}{{ site.baseurl }}/images/dashboard/Dashboard.png" alt="dashboard user view">
+    <figcaption>Chicago crime dashboard main user interface (ux).</figcaption>
+</figure>
+
+### Front-End
+1. [jQuery](https://api.jquery.com/)
+
+2. [Bootstrap](https://getbootstrap.com)
+
+3. [Leaflet](https://leafletjs.com)
+
+4. [Plotly](https://plotly.com)
+
+### Back-End
+1. API Endpoint
+
+2. GeoJSON
 
 ## Data
 This project uses the following data-set:
@@ -24,6 +43,7 @@ This project uses the following data-set:
 3. **[Chicago Community Area Population](https://www.chicago.gov/content/dam/city/depts/zlup/Zoning_Main_Page/Publications/Census_2010_Community_Area_Profiles/Census_2010_and_2000_CA_Populations.pdf)**: Population size per community area based on the 2010 census.
 
 ## Architecture
+
 This dashboard uses [three-tier architecture](https://en.wikipedia.org/wiki/Multitier_architecture), a client, server and database architecture. In this architecture as shown in the figure below, the web client is responsible for querying the database and returning an HTTP response in for of a GeoJSON object. The HTTP response is processed and manipulated using JavaScript and displayed using HTML in the browser. This architecture allows each tier (i.e. Web, Server and Database) to be developed and maintain independently on a separate platform. This means that any of the three tiers can be replaced or upgraded in response to technological advancements, for example, the release of a new operating system (OS).
 {: style="text-align: justify"}
 
@@ -36,7 +56,7 @@ This dashboard uses [three-tier architecture](https://en.wikipedia.org/wiki/Mult
 
 
 ## Summary (Final Recommendation)
-
+There are several benefit of deploying an open source dashboard. It's free, highly customisable, and allows anyone with the right skills to visualise and analyse data, without the need for major financial investments. 
 
 **Source code**: available on [github](https://github.com/Geobuddy/Crime-Dashboard).
 
@@ -51,7 +71,7 @@ Here's a numbered list:
 3. Third issue_term
 
 Python code block:
-```Python
+```JavaScript
     import numpy as np
 
     def test_function():
@@ -59,18 +79,11 @@ Python code block:
       return z
 ```
 
-R code block:
-```r
-library(tidyverse)
-df <- read_csv("some_file.csv")
-head(df)
-```
+
 
 Here some inline code `x+y`.
 
 Here's an image:
 <img src="{{ site.url }}{{ site.baseurl }}/images/dashboard/Dashboard.png" alt="dashboard user view">
 
-Here's some math:
 
-$$z=x+y$$
