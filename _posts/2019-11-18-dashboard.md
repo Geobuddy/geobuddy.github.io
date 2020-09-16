@@ -11,31 +11,25 @@ toc_label: "My Table of Contents"
 toc_icon: "file-alt"
 ---
 ## How to create a dashboard?
-This article will illustrate a step-by-step process to create an interactive web dashboard. A web dashboard consists of three parts, web client, web server and database. The function of each of these components will be discussed in more detail in the [architecture section](#architecture). This dashboard was developed using HTML5, JavaScript and CSS. The main frameworks and libraries used are: 
+This article will illustrate a step-by-step process to create an interactive web dashboard. A web dashboard consists of three parts, a web client, web server and database. The function of each of these components are be discussed in more detail in the [architecture section](#architecture). This dashboard was developed using HTML5, JavaScript and CSS. The main frameworks and libraries used are: 
 {: style="text-align: justify"}
 
-### Front-End
+**Front-End**
 1. [jQuery](https://api.jquery.com/)
-
 2. [Bootstrap](https://getbootstrap.com)
-
 3. [Leaflet](https://leafletjs.com)
-
 4. [Plotly](https://plotly.com)
 
-### Back-End
+**Back-End**
 1. API Endpoint
-
 2. GeoJSON
 
 ## Data
-This project requires the following dataset:
+The data used in this project comprises the crime data sourced from the city of Chicago public data, an area boundary map in GeoJSON format and the population data. {: style="text-align: justify"} The source of the dataset is the following:
 
-1. **[Chicago Crime](https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-present/ijzp-q8t2/data)**: API endpoint containing nearly 7 million crime records between 2001 onwards. Each incident recorded at block level containing 22 attributes (e.g. crime type, date and coordinates).
-
-2. **[Chicago Community Area Boundary](https://raw.githubusercontent.com/RandomFractals/ChicagoCrimes/master/data/chicago-community-areas.geojson)**: GeoJSON containing Chicago community area boundary map for the year of 2015.
-
-3. **[Chicago Community Area Population](https://www.chicago.gov/content/dam/city/depts/zlup/Zoning_Main_Page/Publications/Census_2010_Community_Area_Profiles/Census_2010_and_2000_CA_Populations.pdf)**: Population size per community area based on the 2010 census.
+1. **[Chicago Crime](https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-present/ijzp-q8t2/data)**: API endpoint containing nearly 7 million crime records between 2001 onwards. Each incident recorded at block level containing 22 attributes (e.g. crime type, date and coordinates). {: style="text-align: justify"}
+2. **[Chicago Community Area Boundary](https://raw.githubusercontent.com/RandomFractals/ChicagoCrimes/master/data/chicago-community-areas.geojson)**: GeoJSON containing Chicago community area boundary map for the year of 2015. {: style="text-align: justify"}
+3. **[Chicago Community Area Population](https://www.chicago.gov/content/dam/city/depts/zlup/Zoning_Main_Page/Publications/Census_2010_Community_Area_Profiles/Census_2010_and_2000_CA_Populations.pdf)**: Population size per community area based on the 2010 census. {: style="text-align: justify"}
 
 ## Architecture
 
@@ -49,35 +43,34 @@ This dashboard uses [three-tier architecture](https://en.wikipedia.org/wiki/Mult
 
 ## Steps
 ### Front-End Design
-The first step of this project was to define the layout of the user interface. The layout used for this project was the created using a template from [material design](https://material.io). 
+The first step of this project was to define the layout of the user interface. The layout used for this project was the created using a template from [material design](https://material.io). The main component of graphical user interface are the sidebar comprising the filtering parameters (e.g. Offence Group and Dates), a map and collapsible buttons that display graphs when clicked.
+{: style="text-align: justify"}
+
 <figure>
     <img src="{{ site.url }}{{ site.baseurl }}/images/dashboard/main.png" alt="UX">
     <figcaption style="text-align: center">This figure illustrates the Chicago Crime Dashboard graphical user interface. </figcaption>
 </figure>
 
+<script src="https://gist.github.com/Geobuddy/7179e400f40c018c557a14d1854f8fe4.js"></script>
+
+### Back-End Implentation 
+
+
 ## Graphical User Interface GUI (Results)
 
 <figure>
-    <img src="{{ site.url }}{{ site.baseurl }}/images/dashboard/dashboard.png" alt="Three tier architecture">
-    <img src="{{ site.url }}{{ site.baseurl }}/images/dashboard/heatmap.png" alt="Three tier architecture">
-    <img src="{{ site.url }}{{ site.baseurl }}/images/dashboard/clustermap.png" alt="Three tier architecture">
-    <figcaption style="text-align: center">This figure Illustrates different crime mapping techniques implement in web crime platform. Choropleth map, Heatmap and Cluster map. </figcaption>
+    <img src="{{ site.url }}{{ site.baseurl }}/images/dashboard/dashboard.png" alt="Choropleth Map">
+    <img src="{{ site.url }}{{ site.baseurl }}/images/dashboard/heatmap.png" alt="Heat Map">
+    <img src="{{ site.url }}{{ site.baseurl }}/images/dashboard/clustermap.png" alt="Cluster Map">
+    <figcaption style="text-align: center">This figure illustrates different crime mapping techniques implement in web crime platform. Choropleth map, Heatmap and Cluster map. </figcaption>
 </figure>
 
 ## Summary (Final Recommendation)
 There are several benefit of deploying an open source dashboard. It's free, highly customisable, and allows anyone with the right skills to visualise and analyse data, without the need for major financial investments. 
+{: style="text-align: justify"}
 
 **Source code**: available on [github](https://github.com/Geobuddy/Crime-Dashboard).
-
-Here's a bulleted list:
-* First issue_term
-+ Second issue_term
-- Third issue_term
-
-Here's a numbered list:
-1. First issue_term
-2. Second issue_term
-3. Third issue_term
+3
 
 Python code block:
 ```JavaScript
@@ -87,12 +80,5 @@ Python code block:
       z = np.sum(x,y)
       return z
 ```
-
-
-
-Here some inline code `x+y`.
-
-Here's an image:
-<img src="{{ site.url }}{{ site.baseurl }}/images/dashboard/Dashboard.png" alt="dashboard user view">
 
 
