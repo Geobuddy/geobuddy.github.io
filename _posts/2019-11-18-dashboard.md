@@ -11,13 +11,8 @@ toc_label: "My Table of Contents"
 toc_icon: "file-alt"
 ---
 ## How to create a dashboard?
-This article will illustrate a step-by-step process to create an interactive web dashboard. A web dashboard consists of three parts, web client, web server and database. The function of each of these components will be discussed in more detail in the [architecture section](##architecture). This dashboard was developed using HTML5, JavaScript and CSS. The main frameworks and libraries used are: 
+This article will illustrate a step-by-step process to create an interactive web dashboard. A web dashboard consists of three parts, web client, web server and database. The function of each of these components will be discussed in more detail in the [architecture section](#architecture). This dashboard was developed using HTML5, JavaScript and CSS. The main frameworks and libraries used are: 
 {: style="text-align: justify"}
-
-<figure>
-    <img src="{{ site.url }}{{ site.baseurl }}/images/dashboard/Dashboard.png" alt="dashboard user view">
-    <figcaption>Chicago crime dashboard main user interface (ux).</figcaption>
-</figure>
 
 ### Front-End
 1. [jQuery](https://api.jquery.com/)
@@ -32,6 +27,11 @@ This article will illustrate a step-by-step process to create an interactive web
 1. API Endpoint
 
 2. GeoJSON
+
+<figure>
+    <img src="{{ site.url }}{{ site.baseurl }}/images/dashboard/Dashboard.png" alt="dashboard user view">
+    <figcaption style="text-align: center">Chicago crime dashboard main user interface (ux).</figcaption>
+</figure>
 
 ## Data
 This project uses the following data-set:
