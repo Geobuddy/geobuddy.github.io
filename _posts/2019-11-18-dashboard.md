@@ -28,13 +28,8 @@ This article will illustrate a step-by-step process to create an interactive web
 
 2. GeoJSON
 
-<figure>
-    <img src="{{ site.url }}{{ site.baseurl }}/images/dashboard/Dashboard.png" alt="dashboard user view">
-    <figcaption style="text-align: center">Chicago crime dashboard main user interface (ux).</figcaption>
-</figure>
-
 ## Data
-This project uses the following data-set:
+This project requires the following dataset:
 
 1. **[Chicago Crime](https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-present/ijzp-q8t2/data)**: API endpoint containing nearly 7 million crime records between 2001 onwards. Each incident recorded at block level containing 22 attributes (e.g. crime type, date and coordinates).
 
@@ -44,16 +39,30 @@ This project uses the following data-set:
 
 ## Architecture
 
-This dashboard uses [three-tier architecture](https://en.wikipedia.org/wiki/Multitier_architecture), a client, server and database architecture. In this architecture as shown in the figure below, the web client is responsible for querying the database and returning an HTTP response in for of a GeoJSON object. The HTTP response is processed and manipulated using JavaScript and displayed using HTML in the browser. This architecture allows each tier (i.e. Web, Server and Database) to be developed and maintain independently on a separate platform. This means that any of the three tiers can be replaced or upgraded in response to technological advancements, for example, the release of a new operating system (OS).
+This dashboard uses [three-tier architecture](https://en.wikipedia.org/wiki/Multitier_architecture), a client, server and database architecture. In this architecture as shown in the figure below, the web client is responsible for querying the database and returning an HTTP response in of a GeoJSON object. The HTTP response is processed and manipulated using JavaScript and displayed using HTML in the browser. This architecture allows each tier (i.e. Web, Server and Database) to be developed and maintain independently on a separate platform. This means that any of the three tiers can be replaced or upgraded in response to technological advancements, for example, the release of a new operating system (OS).
 {: style="text-align: justify"}
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/dashboard/3_tier.jpg" alt="Three tier architecture">
+<figure>
+    <img src="{{ site.url }}{{ site.baseurl }}/images/dashboard/3_tier.jpg" alt="Three tier architecture">
+    <figcaption style="text-align: center">This figure illustrates the three-tier architecture fundamental to all modern web-based application. This architecture comprises a web client, a server and a database. </figcaption>
+</figure>
 
 ## Steps
-
+### Front-End Design
+The first step of this project was to define the layout of the user interface. The layout used for this project was the created using a template from [material design](https://material.io). 
+<figure>
+    <img src="{{ site.url }}{{ site.baseurl }}/images/dashboard/main.png" alt="UX">
+    <figcaption style="text-align: center">This figure illustrates the Chicago Crime Dashboard graphical user interface. </figcaption>
+</figure>
 
 ## Graphical User Interface GUI (Results)
 
+<figure>
+    <img src="{{ site.url }}{{ site.baseurl }}/images/dashboard/dashboard.png" alt="Three tier architecture">
+    <img src="{{ site.url }}{{ site.baseurl }}/images/dashboard/heatmap.png" alt="Three tier architecture">
+    <img src="{{ site.url }}{{ site.baseurl }}/images/dashboard/clustermap.png" alt="Three tier architecture">
+    <figcaption style="text-align: center">This figure Illustrates different crime mapping techniques implement in web crime platform. Choropleth map, Heatmap and Cluster map. </figcaption>
+</figure>
 
 ## Summary (Final Recommendation)
 There are several benefit of deploying an open source dashboard. It's free, highly customisable, and allows anyone with the right skills to visualise and analyse data, without the need for major financial investments. 
