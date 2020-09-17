@@ -50,43 +50,34 @@ The first step of this project was to define the layout of the user interface. T
     <figcaption style="text-align: center">This figure illustrates the Chicago Crime Dashboard graphical user interface.</figcaption>
 </figure>
 
-<script style="max-height: 150px; overflow-y: scroll" src="https://gist.github.com/Geobuddy/7179e400f40c018c557a14d1854f8fe4.js"></script>
-
 ### Back-End Implementation
 #### Data Request
-The initial process in this development consists in loading the data resources from the API endpoints and local file. The data is loaded through a jQuery AJAX request. An AJAX stands for Asynchronous JavaScript And XML. The jQuery AJAX method uses a browser built-in XMLHttpRequest object to request data from a web server, processes the returned data using JavaScript and displays in a HTML DOM. This whole process occurs asynchronously where data is exchanged with a web server in the back-end. This enables to update parts of a web site, without the need to reload the whole page. Figure 5 shows the implantation of AJAX to load the data from the API endpoints and local JSON file.
+The initial process in this development consists in loading the data resources from the API endpoints and local file. The data is loaded through a jQuery AJAX request. An AJAX stands for Asynchronous JavaScript And XML. The jQuery AJAX method uses a browser built-in XMLHttpRequest object to request data from a web server, processes the returned data using JavaScript and displays in a HTML DOM. This whole process occurs asynchronously where data is exchanged with a web server in the back-end. This enables to update parts of a web site, without the need to reload the whole page. The gist below shows the implantation of AJAX to load the data from the API endpoints and local JSON file.
 {: style="text-align: justify"}
 
 <script style="max-height: 150px; overflow-y: scroll" src="https://gist.github.com/Geobuddy/6d48395ce0475ff0bf24a82e4b7996cf.js"></script>
 
 #### Data Transformation
-In order to display the crime rate into to a choropleth map we needed transform the data. This requires merging of the crime data and population data into the boundary GeoJSON (Fig. 6). The crime and the population data were merged into the boundary GeoJSON because the paths (i.e. MultyPolygon) to construct the choropleth layer are generated from this dataset. We created two monster arrays for the crime data and the population data which were in turn bind to the boundary GeoJSON path elements all at the same time. In order to bind to data sets we need to determine common proprieties on both data sets. In this particular example we used the community area number which was available in all three data sets. For example, for each community area number in the Chicago crime GeoJSON, we matched the same number on the Chicago boundary GeoJSON. Then we selected the Chicago crime data value we want to bind and merged it under myBoundary[j]. properties. Value, which can later when plotting the map. Similar process was carried to bind the population data set. Having the crime count and the population size per community area enable the calculation of the crime rate per community area. 
+In order to display the crime rate into to a choropleth map we needed transform the data. This requires merging of the crime data and population data into the boundary GeoJSON map. The crime and the population data were merged into the boundary GeoJSON because the paths (i.e. MultyPolygon) to construct the choropleth layer are generated from this dataset. We created two monster arrays for the crime data and the population data which were in turn bind to the boundary GeoJSON path elements all at the same time. In order to bind to data sets we need to determine common proprieties on both data sets. In this particular example we used the community area number which was available in all three data sets. For example, for each community area number in the Chicago crime GeoJSON, we matched the same number on the Chicago boundary GeoJSON. Then we selected the Chicago crime data value we want to bind and merged it under myBoundary[j]. properties. Value, which can later when plotting the map. Similar process was carried to bind the population data set. Having the crime count and the population size per community area enable the calculation of the crime rate per community area. 
 {: style="text-align: justify"}
 
 <script style="max-height: 150px; overflow-y: scroll" src="https://gist.github.com/Geobuddy/e15fc2a050c339c5ebae625ff31b4c20.js"></script>
 
 ## Graphical User Interface GUI (Results)
+In this project, we have used Open Street Map (OSM) and Carto DB basemaps which can be displayed by check the according box in the leaflet layer control located on the top right corner of the map. The basemaps can be overlain by three distinct mapping layers. Three distinct mapping visualisation techniques were adopted, a choropleth map , a heatmap and a cluster map. A mouse pointing highlight function is available in the choropleth map enabling the user to visualise information dynamically about the chosen community area. This information is displayed in an information box located on the top right corner of the map.
+{: style="text-align: justify"}
 
 <figure>
     <img src="{{ site.url }}{{ site.baseurl }}/images/dashboard/dashboard.png" alt="Choropleth Map">
     <img src="{{ site.url }}{{ site.baseurl }}/images/dashboard/heatmap.png" alt="Heat Map">
     <img src="{{ site.url }}{{ site.baseurl }}/images/dashboard/clustermap.png" alt="Cluster Map">
-    <figcaption style="text-align: center">This figure illustrates different crime mapping techniques implement in web crime platform. Choropleth map, Heatmap and Cluster map. </figcaption>
+    <figcaption style="text-align: center">This figure illustrates different crime mapping techniques implement in web crime platform. Choropleth map, Heatmap and Cluster map.</figcaption>
 </figure>
+
+
 
 ## Summary (Final Recommendation)
 There are several benefit of deploying an open source dashboard. It's free, highly customisable, and allows anyone with the right skills to visualise and analyse data, without the need for major financial investments. 
 {: style="text-align: justify"}
 
 **Source code**: available on [github](https://github.com/Geobuddy/Crime-Dashboard).
-3
-
-```JavaScript
-    import numpy as np
-
-    def test_function():
-      z = np.sum(x,y)
-      return z
-```
-
-
