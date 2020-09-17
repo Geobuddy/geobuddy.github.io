@@ -305,3 +305,15 @@ defaults:
     values:
       layout: single
       author_profile: true
+
+  # _tags
+  - scope:
+      path: ''
+      type: tags
+    values:
+      layout: tag
+  - scope:
+      path: ''
+      type: categories
+    values:
+      layout: category
