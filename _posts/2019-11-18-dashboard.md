@@ -36,7 +36,7 @@ This dashboard uses [three-tier architecture](https://en.wikipedia.org/wiki/Mult
 {: style="text-align: justify"}
 
 <figure>
-    <img src="{{ site.url }}{{ site.baseurl }}/images/dashboard/tiers.jpg" alt="Three tier architecture">
+    <img src="{{ site.url }}{{ site.baseurl }}/images/dashboard/layers.jpg" alt="Three tier architecture">
     <figcaption style="text-align: center">This figure illustrates the three-tier architecture fundamental to all modern web-based application. This architecture comprises a web client, a server and a database. </figcaption>
 </figure>
 
