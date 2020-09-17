@@ -11,7 +11,7 @@ toc_label: "My Table of Contents"
 toc_icon: "file-alt"
 ---
 ## How to create a dashboard?
-This article will illustrate a step-by-step process to create an interactive web dashboard. A web dashboard consists of three parts, a web client, web server and database. The function of each of these components are be discussed in more detail in the [architecture section](#architecture). This dashboard was developed using HTML5, JavaScript and CSS. The main frameworks and libraries used are: 
+This article will illustrate a step-by-step process to create an interactive web dashboard. A web dashboard consists of three parts, a web client, a web server and a database. The function of each of these components are be discussed in more detail in the [architecture section](#architecture). This dashboard was developed using HTML5, JavaScript and CSS. The main frameworks and libraries used are: 
 {: style="text-align: justify"}
 **Front-End**
 1. [jQuery](https://api.jquery.com/)
@@ -36,7 +36,7 @@ This dashboard uses [three-tier architecture](https://en.wikipedia.org/wiki/Mult
 {: style="text-align: justify"}
 
 <figure>
-    <img src="{{ site.url }}{{ site.baseurl }}/images/dashboard/3_tier.jpg" alt="Three tier architecture">
+    <img src="{{ site.url }}{{ site.baseurl }}/images/dashboard/tiers.jpg" alt="Three tier architecture">
     <figcaption style="text-align: center">This figure illustrates the three-tier architecture fundamental to all modern web-based application. This architecture comprises a web client, a server and a database. </figcaption>
 </figure>
 
@@ -69,7 +69,7 @@ In this project, we have used Open Street Map (OSM) and Carto DB basemaps which 
 {: style="text-align: justify"}
 
 <figure>
-    <img src="{{ site.url }}{{ site.baseurl }}/images/dashboard/dashboard.png" alt="Choropleth Map">
+    <img src="{{ site.url }}{{ site.baseurl }}/images/dashboard/dash.png" alt="Choropleth Map">
     <img src="{{ site.url }}{{ site.baseurl }}/images/dashboard/heatmap.png" alt="Heat Map">
     <img src="{{ site.url }}{{ site.baseurl }}/images/dashboard/clustermap.png" alt="Cluster Map">
     <figcaption style="text-align: center">This figure illustrates different crime mapping techniques implement in web crime platform. Choropleth map, Heatmap and Cluster map (top to bottom).</figcaption>
