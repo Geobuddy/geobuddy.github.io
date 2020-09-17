@@ -85,7 +85,7 @@ In this project, we generated charts using the plotlyJS library. The charts and 
 </figure>
 
 ## Summary
-There are several benefit of deploying an open source dashboard. It's free, highly customisable, and allows anyone with the right skills to visualise and analyse data, without the need for major financial investments. For instance, this solution can contribute to crime fighting in developing countries where financial and technological resources are often limited.
+There are several benefits of deploying an open source dashboard. It's free, highly customisable, and allows anyone with the right skills to visualise and analyse data, without the need for major financial investments. For instance, this solution can contribute to crime fighting in developing countries where financial and technological resources are often limited.
 {: style="text-align: justify"}
 
 **Source code**: available on [github](https://github.com/Geobuddy/Crime-Dashboard).
