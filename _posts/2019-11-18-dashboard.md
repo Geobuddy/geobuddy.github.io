@@ -1,7 +1,7 @@
 ---
 title: "Chicago Crime Dashboard"
 date: 2019-11-18
-tags: [dashboard, data visualisation, data analysis]
+tag: [dashboard, data visualisation, data analysis]
 header:
   overlay_image: "/images/Background.jpg"
 excerpt: "Data Science, Dashboard, Data Visualisation"
@@ -32,7 +32,7 @@ The source of the dataset is the following:
 3. **[Chicago Community Area Population](https://www.chicago.gov/content/dam/city/depts/zlup/Zoning_Main_Page/Publications/Census_2010_Community_Area_Profiles/Census_2010_and_2000_CA_Populations.pdf)**: Population size per community area based on the 2010 census.
 
 ## Architecture
-This dashboard uses [three-tier architecture](https://en.wikipedia.org/wiki/Multitier_architecture), a client, server and database architecture. In this architecture as shown in the figure below, the web client is responsible for querying the database and returning an HTTP response in of a GeoJSON object. The HTTP response is processed and manipulated using JavaScript and displayed using HTML in the browser. This architecture allows each tier (i.e. Web, Server and Database) to be developed and maintain independently on a separate platform. This means that any of the three tiers can be replaced or upgraded in response to technological advancements, for example, the release of a new operating system (OS).
+This dashboard uses [three-tier architecture](https://en.wikipedia.org/wiki/Multitier_architecture), a client, server and database architecture. In this architecture as shown in the figure below, the web client is responsible for querying the database and returning an HTTP response in the form of a GeoJSON object. The HTTP response is processed and manipulated using JavaScript and displayed using HTML in the browser. This architecture allows each tier (i.e. Web, Server and Database) to be developed and maintained independently on a separate platform. This means that any of the three tiers can be replaced or upgraded in response to technological advancements, for example, the release of a new operating system (OS).
 {: style="text-align: justify"}
 
 <figure>
@@ -42,7 +42,7 @@ This dashboard uses [three-tier architecture](https://en.wikipedia.org/wiki/Mult
 
 ## Steps
 ### Front-End Design
-The first step of this project was to define the layout of the user interface. The layout used for this project was the created using a template from [material design](https://material.io). The main component of graphical user interface are the sidebar comprising the filtering parameters (e.g. Offence Group and Dates), a map and collapsible buttons that display graphs when clicked.
+The first step of this project was to define the layout of the user interface. The layout used for this project was the created using a template from [material design](https://material.io). The main component of the graphical user interface are the sidebar comprising the filtering parameters (e.g. Offence Group and Dates), a map and collapsible buttons that display graphs when clicked.
 {: style="text-align: justify"}
 
 <figure>
