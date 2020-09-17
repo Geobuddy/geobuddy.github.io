@@ -63,7 +63,8 @@ In order to display the crime rate into to a choropleth map we needed transform 
 
 <script style="max-height: 150px; overflow-y: scroll" src="https://gist.github.com/Geobuddy/e15fc2a050c339c5ebae625ff31b4c20.js"></script>
 
-## Graphical User Interface GUI (Results)
+## Graphical User Interface GUI
+### Maps
 In this project, we have used Open Street Map (OSM) and Carto DB basemaps which can be displayed by check the according box in the leaflet layer control located on the top right corner of the map. The basemaps can be overlain by three distinct mapping layers. Three distinct mapping visualisation techniques were adopted, a choropleth map , a heatmap and a cluster map. A mouse pointing highlight function is available in the choropleth map enabling the user to visualise information dynamically about the chosen community area. This information is displayed in an information box located on the top right corner of the map.
 {: style="text-align: justify"}
 
@@ -71,13 +72,20 @@ In this project, we have used Open Street Map (OSM) and Carto DB basemaps which 
     <img src="{{ site.url }}{{ site.baseurl }}/images/dashboard/dashboard.png" alt="Choropleth Map">
     <img src="{{ site.url }}{{ site.baseurl }}/images/dashboard/heatmap.png" alt="Heat Map">
     <img src="{{ site.url }}{{ site.baseurl }}/images/dashboard/clustermap.png" alt="Cluster Map">
-    <figcaption style="text-align: center">This figure illustrates different crime mapping techniques implement in web crime platform. Choropleth map, Heatmap and Cluster map.</figcaption>
+    <figcaption style="text-align: center">This figure illustrates different crime mapping techniques implement in web crime platform. Choropleth map, Heatmap and Cluster map (top to bottom).</figcaption>
 </figure>
 
+### Charts
+In this project, we generated charts using the plotlyJS library. The charts and graphs provided to give the user a different insight into the data besides the map. Four plots are included alongside the map in the main section, a crime count, a time-series, an average monthly crime and arrest and domestic bar graph. Crime count graph shows the total number of incidents recorded within a defined time frame. The time-series illustrates the number of incidents recorded per month within a set timeframe. The average monthly crime count shows the average distribution of the incidents per month over a define timeframe. Lastly, pie charts in shows the percentage of arrest and domestic cased for a specific crime within a particular time frame. 
+{: style="text-align: justify"}
 
+<figure>
+    <img src="{{ site.url }}{{ site.baseurl }}/images/dashboard/charts.png" alt="Charts">
+    <figcaption style="text-align: center">This figure illustrates dynamic analytical graphs displaying crime count, crime time-series, average monthly crime plot and arrest and domestic count.</figcaption>
+</figure>
 
-## Summary (Final Recommendation)
-There are several benefit of deploying an open source dashboard. It's free, highly customisable, and allows anyone with the right skills to visualise and analyse data, without the need for major financial investments. 
+## Summary
+There are several benefit of deploying an open source dashboard. It's free, highly customisable, and allows anyone with the right skills to visualise and analyse data, without the need for major financial investments. For instance, this solution can contribute to crime fighting in developing countries where financial and technological resources are often limited.
 {: style="text-align: justify"}
 
 **Source code**: available on [github](https://github.com/Geobuddy/Crime-Dashboard).
