@@ -1,10 +1,10 @@
 ---
 title: "Chicago Crime Dashboard"
 date: 2019-11-18
-tag: [dashboard, data visualisation, data analysis]
+tag: [dashboard, data-visualisation, data-analysis]
 header:
   overlay_image: "/images/Background.jpg"
-excerpt: "Data Science, Dashboard, Data Visualisation"
+excerpt: "Dashboard, Data Visualisation, Data Analysis"
 mathjax: "true"
 toc: true
 toc_label: "My Table of Contents"
