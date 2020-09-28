@@ -10,7 +10,10 @@ toc: true
 toc_label: "My Table of Contents"
 toc_icon: "file-alt"
 ---
-![Dashboard UI gif](https://media.giphy.com/media/Sd9cD62qMvJGrKQmqW/giphy.gif)
+<figure>
+    <img style="align-content: center" src="https://media.giphy.com/media/Sd9cD62qMvJGrKQmqW/giphy.gif" alt="Dashboard UI gif">
+    <figcaption style="text-align: center">Dashboard main page user interface. </figcaption>
+</figure>
 
 ## How to create a dashboard?
 This article will illustrate a step-by-step process to create an interactive web dashboard. The deployed version of this dashboard is available in this [link](https://crime-dashboard.herokuapp.com/index.html) on heroku. A web dashboard consists of three parts, a web client, a web server and a database. The function of each of these components are discussed in more detail in the [architecture section](#architecture). This dashboard was developed using HTML5, JavaScript and CSS. The main frameworks and libraries used are: 
