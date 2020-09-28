@@ -12,7 +12,6 @@ toc_icon: "file-alt"
 ---
 <figure>
     <img style="align-content: center" src="https://media.giphy.com/media/Sd9cD62qMvJGrKQmqW/giphy.gif" alt="Dashboard UI gif">
-    <figcaption style="text-align: center">Dashboard main page user interface. </figcaption>
 </figure>
 
 ## How to create a dashboard?
